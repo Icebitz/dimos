@@ -2,7 +2,6 @@
 **/*.ignore
 **/*.ignore.*
 
-.vscode/
 
 # Ignore Python cache files
 __pycache__/
@@ -18,7 +17,6 @@ __pycache__/
 *.egg-info/
 __pycache__
 
-.env
 **/.DS_Store
 
 # Ignore default runtime output folder
@@ -77,3 +75,4 @@ CLAUDE.MD
 htmlcov/
 .coverage
 .coverage.*
+config.bat
