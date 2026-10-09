@@ -5,8 +5,8 @@
   "type": "module",
   "description": "Browser-based 3D simulator (Three.js + Rapier) + Deno bridge \u2014 runs as the simulation backend for dimos.",
   "scripts": {
-    "dev": "vite --force",
-    "build": "vite build",
+    "dev": "node init && vite --force",
+    "build": "node init && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
